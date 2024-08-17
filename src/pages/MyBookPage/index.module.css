@@ -1,0 +1,15 @@
+.back-to-home-button {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  width: 5vh;
+  height: 5vh;
+  background-color: #812c2c;
+  border-radius: 100%;
+  margin-top: 5vh;
+  margin-left: 5vh;
+}
+.back-to-home-button:hover {
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=index.module.css.map */

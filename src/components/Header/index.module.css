@@ -1,0 +1,24 @@
+.header {
+  margin: 5vh 5vh 0;
+  display: flex;
+  justify-content: center;
+}
+
+.search_box {
+  display: flex;
+}
+
+.menu-button {
+  width: 5vh;
+  height: 5vh;
+  margin-top: 1vh;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  background-color: #812c2c;
+  border-radius: 100%;
+}
+.menu-button:hover {
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=index.module.css.map */

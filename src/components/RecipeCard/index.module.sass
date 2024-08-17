@@ -1,0 +1,101 @@
+.recipe_card
+  display: flex
+  align-items: center
+  position: relative
+  width: 633px
+  height: 329px
+  perspective: 1000px
+  margin: 18px
+  cursor: pointer // Add this line to change the cursor to pointer on hover
+
+  &:hover
+    cursor: pointer // Ensure cursor changes to pointer on hover
+
+
+
+.card_inner
+  width: 633px
+  height: 329px
+  transition: transform 0.8s
+  transform-style: preserve-3d
+  border-radius: 50px
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+//background-color: rgba(217, 217, 217, 0.48);
+
+
+.card_inner.is_flipped
+  transform: rotateX(180deg)
+
+.card_face
+  position: absolute
+  width: 633px
+  height: 329px
+  backface-visibility: hidden
+  display: flex
+  align-items: center
+  border-radius: 50px
+
+
+.card_front
+  background-color: rgba(217, 217, 217, 0.48)
+
+
+.card_back
+  background-color: rgba(217, 217, 217, 0.48)
+  transform: rotateY(180deg)
+  width: 633px
+  height: 329px
+  display: flex
+  flex-direction: column
+  justify-content: center
+
+
+.card_back h3, li
+  transform: rotate(180deg)
+
+
+.recipe_card img
+  width: 200px
+  height: 200px
+  border-radius: 50%
+  margin-left: 50px
+  margin-right: 40px
+
+
+.recipe_card h3
+  font-size: 1.5em
+  margin-top: 5px
+
+
+li
+  font-size: 1em
+  line-height: 1.5
+
+
+.recipe_card_text
+  display: inline-list-item
+
+
+.recipe_card a
+  display: block
+  margin-top: 10px
+  color: #812c2c
+  text-decoration: none
+
+
+.recipe_card a:hover
+  text-decoration: underline
+
+
+.save_button
+  background: none
+  border: none
+  cursor: pointer
+  padding: 0
+  margin-top: 20px
+
+
+.save_button svg
+  display: block
+
+

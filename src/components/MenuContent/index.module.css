@@ -1,0 +1,35 @@
+.menu {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.button_icons {
+  display: flex;
+  align-items: center;
+  margin: 3vh 4vh;
+  width: 100%;
+}
+
+.set {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 450px;
+}
+
+.food {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 900px;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+/*# sourceMappingURL=index.module.css.map */
